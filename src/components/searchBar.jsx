@@ -11,7 +11,7 @@ export default function SearchBar({ value, onChange, onSubmit, disabled }) {
     >
       <input
         aria-label="GitHub username"
-        placeholder="Enter GitHub username (e.g. gaearon)"
+        placeholder="Enter GitHub username to get the user details (e.g. gaearon)"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         disabled={disabled}
